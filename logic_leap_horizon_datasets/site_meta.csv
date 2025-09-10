@@ -1,0 +1,5 @@
+site_id,region,commissioned_year,shift_hours_per_day
+S1,South,2018,20
+S2,West,2016,24
+S3,North,2020,16
+S4,East,2015,20

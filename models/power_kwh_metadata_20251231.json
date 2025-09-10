@@ -1,0 +1,42 @@
+{
+  "target": "power_kwh",
+  "features": [
+    "day_of_week",
+    "month",
+    "quarter",
+    "day_of_year",
+    "week_of_year",
+    "units_produced_lag_1",
+    "units_produced_lag_7",
+    "units_produced_lag_14",
+    "units_produced_lag_30",
+    "units_produced_roll_mean_7",
+    "units_produced_roll_mean_14",
+    "units_produced_roll_mean_30",
+    "power_kwh_lag_1",
+    "power_kwh_lag_7",
+    "power_kwh_lag_14",
+    "power_kwh_lag_30",
+    "power_kwh_roll_mean_7",
+    "power_kwh_roll_mean_14",
+    "power_kwh_roll_mean_30",
+    "efficiency",
+    "downtime_ratio",
+    "temperature_c",
+    "rainfall_mm",
+    "is_holiday"
+  ],
+  "sites": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "data_shape": [
+    1460,
+    38
+  ],
+  "data_timestamp": "20251231",
+  "training_date": "2025-09-10T23:46:15.685511",
+  "data_max_date": "2025-12-31T00:00:00"
+}

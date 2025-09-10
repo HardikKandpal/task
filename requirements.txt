@@ -1,0 +1,17 @@
+pandas>=1.5.0,<2.0.0
+numpy>=1.21.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+statsmodels>=0.13.0
+typer>=0.7.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+python-dateutil>=2.8.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Notes:
+# Python 3.10+ required
+# All packages are from allowed libraries (no external APIs)
+# Fixed seeds for reproducibility in models.py
+# Modest compute requirements (runs on standard laptop)
